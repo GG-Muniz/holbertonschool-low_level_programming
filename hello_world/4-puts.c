@@ -1,4 +1,5 @@
-gcc program.c -o program
+#!/bin/bash
+gcc puts.c -o puts
 
 #include <studio.h>
 int main(void)
