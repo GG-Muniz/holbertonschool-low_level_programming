@@ -3,8 +3,8 @@
  * Main will print the size of various types.
  *
  * Return: 0
- */
-int main (void)
+*/
+int main(void)
 {
 	char cT;
 	int iT;
