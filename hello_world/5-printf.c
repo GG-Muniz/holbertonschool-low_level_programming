@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - will print written message
  * Return: 0
 */
