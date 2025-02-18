@@ -1,6 +1,11 @@
-include <stdio.h>
-
-int main (void){
+#include <stdio.h>
+/**
+ * Main will print the size of various types.
+ *
+ * Return: 0
+ */
+int main (void)
+{
 	printf("\"Size of char: 1 byte(s)");
 	printf("\"Size of int: 4 byte(s)");
 	printf("\"Size of a long int: 4 byte(s)");
