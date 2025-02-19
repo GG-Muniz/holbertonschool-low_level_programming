@@ -11,7 +11,6 @@ int main(void)
 {
 	/* Declare variable.*/
 	char a;
-	
 	/* For Loop starts at a and finishes alphabet at z. Prints outcome.*/
 	for (a = 'a'; a <= 'z'; a++)
 	{
