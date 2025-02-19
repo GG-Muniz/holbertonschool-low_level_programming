@@ -8,8 +8,9 @@
 int main(void){
 
 	/*Decalring vairable n to be generated randomly */
+	int n;
 	srand(time(0));
-	int n = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
 	/*If statemet(s) - Checks if the random number is negative and prints the result in a new line.*/
 	if (n < 0){
