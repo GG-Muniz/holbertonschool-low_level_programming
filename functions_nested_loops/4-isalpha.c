@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - prints 1 or 0 depending if char is a letter or not.
- * @c: it's the defined char. 
+ * @c: it's the defined char.
  * Return: 1 if c is a letter & 0 if not.
 */
 
