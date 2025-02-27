@@ -7,9 +7,6 @@
  */
 int main(void)
 {
-	char *str;
-
-	str = "0123456789";
-	puts_half(str);
+	more_numbers();
 	return (0);
 }

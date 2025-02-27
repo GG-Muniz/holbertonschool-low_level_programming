@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - check the code
  *
@@ -7,9 +6,9 @@
  */
 int main(void)
 {
-	char *str;
-
-	str = "0123456789";
-	puts_half(str);
+	print_triangle(2);
+	print_triangle(10);
+	print_triangle(1);
+	print_triangle(0);
 	return (0);
 }

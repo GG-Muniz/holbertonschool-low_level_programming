@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	char *str;
-
-	str = "0123456789";
-	puts_half(str);
+	print_line(0);
+	print_line(2);
+	print_line(10);
+	print_line(-4);
 	return (0);
 }
