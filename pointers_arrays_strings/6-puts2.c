@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * puts2 - prints every other character of a string, starting with the first character.
- * @str - string to be pirnted.
+ * puts2 - prints every other character of a string.
+ * @str: characters to be printed.
  *
 */
 void puts2(char *str)
