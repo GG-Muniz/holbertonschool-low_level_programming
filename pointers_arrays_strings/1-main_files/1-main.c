@@ -8,11 +8,13 @@
  */
 int main(void)
 {
-	char str[] = "Look up!\n";
-	char *ptr;
+	int a;
+	int b;
 
-	ptr = string_toupper(str);
-	printf("%s", ptr);
-	printf("%s", str);
+	a = 98;
+	b = 42;
+	printf("a=%d, b=%d\n", a, b);
+	swap_int(&a, &b);
+	printf("a=%d, b=%d\n", a, b);
 	return (0);
 }
