@@ -27,6 +27,10 @@ char *str_concat(char *s1, char *s2)
 	/*Third: allocate the memory.*/
 	conc = malloc(sizeof(char) * (len1 + len2 + 1));
 
+	/*Fourth: check if malloc is null.*/
+	if (conc == NULL)
+		return (NULL);
+
 	/*Fourth: copy the strings to one index i. */
 	for (i = 0; i < len1; i++)
 		conc[i] = s1[i];
